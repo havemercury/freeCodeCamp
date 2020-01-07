@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Customer Satisfaction Survey</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/survey.css">
+  </head>
+  <body>
+  
+    <div class="center-vh-container">
+        <div class="center-vh-item"> 
+            <h1 id="title">Pokémon Center Survey</h1>
+            <p id="description">Thank you for allowing us to take care of your Pokémon. Please let us know more about your experience so we can improve trainer experiences!</p>
+
+            <form id="survey-form">
+              <p>
+                <label for="name" id="name-label">Name:</label> <input type="text" id="name" name="Name" placeholder="Your name" required>
+              </p>
+              <p>
+                <label for="email" id="email-label">Email:</label> <input type="email" id="email" name="Email" placeholder="Your email" required>
+              </p>
+              <p> 
+                <label for="number" id="number-label">Age:</label> <input type="number" id="number" min="1" max="110" placeholder="Age">
+              </p>
+              <p>
+                <label for="dropdown">Which region is this Pokémon Center located?</label> 
+                <select id="dropdown">
+                  <option value="">Choose</option>
+                  <option value="Kanto">Kanto</option>
+                  <option value="Johto">Johto</option>
+                  <option value="Hoenn">Hoenn</option>
+                  <option value="Sinnoh">Sinnoh</option>
+                  <option value="Unova">Unova</option>
+                  <option value="Kalos">Kalos</option>
+                  <option value="Alola">Alola</option>
+                  <option value="Orre">Orre</option>
+                  <option value="Sevii Islands">Sevii Islands</option>
+                </select>
+              </p>
+              <div class="type-section">
+                What Pokémon types were treated?
+                <div class="types">
+                  <div class="type">
+                    <input type="checkbox" id="normal" name="poketype" value="normal"> <label for="normal">Normal</label>     
+                  </div>  
+                  <div class="type"> 
+                    <input type="checkbox" id="fire" name="poketype" value="fire"> <label for="fire">Fire</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="water" name="poketype" value="water"> <label for="water">Water</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="electric" name="poketype" value="electric"> <label for="electric">Electric</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="grass" name="poketype" value="grass"> <label for="grass">Grass</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="flying" name="poketype" value="flying"> <label for="flying">Flying</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="rock" name="poketype" value="rock"> <label for="rock">Rock</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="steel" name="poketype" value="steel"> <label for="steel">Steel</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="ground" name="poketype" value="ground"> <label for="ground">Ground</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="bug" name="poketype" value="bug"> <label for="bug">Bug</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="poison" name="poketype" value="poison"> <label for="poison">Poison</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="ice" name="poketype" value="ice"> <label for="ice">Ice</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="fighting" name="poketype" value="fighting"> <label for="fighting">Fighting</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="psychic" name="poketype" value="psychic"> <label for="psychic">Psychic</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="dark" name="poketype" value="dark"> <label for="dark">Dark</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="ghost" name="poketype" value="ghost"> <label for="ghost">Ghost</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="dragon" name="poketype" value="dragon"> <label for="dragon">Dragon</label>
+                  </div>  
+                  <div class="type">
+                    <input type="checkbox" id="fairy" name="poketype" value="fairy"> <label for="fairy">Fairy</label>
+                  </div>
+                </div>
+              </div>             
+              <p>
+                Would you recommend our Pokémon Center?<br>
+                <input id="yes" type="radio" value="yes" name="recommend" checked> <label for="yes">Yes</label>
+                <input id="no" type="radio" value="no" name="recommend"> <label for="no">No</label>
+              </p>
+              <p>
+                <label for="comments">What can we do to improve your experience?</label><br>
+                <textarea id="comments" rows="8" maxlength="250">Write your feedback here.</textarea>
+              </p>
+              <p>
+              <button type="submit">Submit Form</button>
+              </p>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+      <p>A <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a> project by <a href="https://github.com/havemercury" target="_blank">HaveMercury</a>.</p>
+    </footer>
+    
+  </body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font: 11pt/1.5 'Nanum Gothic Coding', sans-serif; 
+    background: #62caa1 url(../img/pokegrass.png) repeat left top;
+    color: #47445c;
+  }
+  
+.center-vh-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.center-vh-item {
+  border: 1px solid #47445c;
+  max-width: 500px;
+  padding: 30px 50px;
+  background-color: #f8f1ca;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #ff3c19;
+}
+
+.types {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+input, select {
+  font-family: 'Nanum Gothic Coding', sans-serif;
+  font-size: 1em;
+  color: #595959;
+}
+
+textarea {
+  font-family: 'Nanum Gothic Coding', sans-serif; 
+  width: 90%;
+  font-size: 1em;
+  color: #595959;
+}
+
+button {
+  background-color: #00a9fd;
+  color: #fff;
+  padding: 10px 15px;
+  border: 0px;
+  border-radius: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+footer a { 
+  color: #ff3c19; 
+  background-color: #fff;
+  padding: 5px 8px;
+}
+footer a:hover { color: #00a9fd; }
+
+@media (max-width: 500px) {
+  .types {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 300px) {
+  .types {
+    grid-template-columns: 1fr;
+  }
+}
