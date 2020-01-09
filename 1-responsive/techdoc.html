@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Technical Documentation</title>
+    <link rel="stylesheet" href="css/techdoc.css">
+  </head>
+  <body>
+
+    <nav id="navbar" aria-label="Main menu" class="col-1">
+      <header>JavaScript Cheatsheet </header>
+      <ul>
+        <li><a href="#Variables" class="nav-link">Variables</a></li>
+        <li><a href="#Data_Types" class="nav-link">Data Types</a></li>
+        <li><a href="#Operators" class="nav-link">Operators</a></li>
+        <li><a href="#if_Statements" class="nav-link">if Statements</a></li>
+        <li><a href="#Logical_Operators" class="nav-link">Logical Operators</a></li>
+      </ul>
+    </nav>
+    
+    <div class="col-2">
+      <main id="main-doc">
+        <h1>JavaScript Cheatsheet</h1>
+        <section class="main-section" id="Variables">
+          <header>Variables</header>
+          
+          <ul>
+            <li><strong>var</strong> - older way of declaring a variable (use let instead)</li>
+            <li><strong>let</strong> - variable declaration of which its value CAN be changed</li>
+            <li><strong>const</strong> - variable declaration of which its value CANNOT be changed</li>
+          </ul>
+          
+        </section>
+
+        <section class="main-section" id="Data_Types">
+          <header>Data Types</header>
+          <p>Primitive data types can only store one thing; however, objects store a collection of data so they are NOT primitive. You can use <code>typeof x</code> or <code>typeof(x)</code> to find which type of data has been stored.</p>
+          
+          <ol>
+            <li><strong>number:</strong> numbers of any kind: integor or floating point</li>
+            <li><strong>bigint:</strong> integer numbers of arbitrary length</li>
+            <li><strong>string:</strong> a string of one of more characters</li>
+            <li><strong>boolean:</strong> true/false</li>
+            <li><strong>null:</strong> unknown values</li>
+            <li><strong>undefined:</strong> unassigned values</li>
+            <li><strong>object:</strong> complex data structures</li>
+            <li><strong>symbol:</strong> unique identifiers</li>
+          </ol>
+
+          <h2>You can convert types using the following:</h2>
+
+          <pre>
+String(value); // string conversion
+Number(value); // numeric conversion
+  /* undefined ~> NaN
+  * null ~> 0
+  * true / false ~> 1 / 0
+  * string ~> error gives NaN, empty string gives 0 
+  */
+Boolean(value); // boolean conversion
+  /* 0, null, undefined, NaN, "" ~> false (aka "falsey")
+  * anything else ~> true (aka "truthy")
+  */</pre>
+        </section>
+
+        <section class="main-section" id="Operators">
+          <header>Operators</header>
+          <p>+ (binary): adds numbers and if operands are strings, will concatenate strings</p>
+
+          <p>+ (unary): converts non-numbers into numbers (+true ~> 1 OR +"" ~> 0 OR +"2" ~> 2). example:</p>
+
+          <pre>
+let apples = "2";
+let oranges = "3";
+// both values converted to numbers before the binary plus
+alert( +apples + +oranges ); // 5</pre>
+
+          <p>=: assignment</p>
+
+          <p>%: modulus (remainder)</p>
+
+          <p>**: exponentiation, example:</p>
+
+          <pre>
+console.log(2 ** 2); // 4  (2 * 2)
+console.log(2 ** 3); // 8  (2 * 2 * 2)
+console.log(2 ** 4); // 16 (2 * 2 * 2 * 2)
+console.log(8 ** (1/2)); // 2 (power of 1/2 is the same as square root)</pre>
+
+        <p>++: increment variable by 1, example:</p>
+
+        <pre>
+++counter; // increase a value AND immediately use the result of the operator
+counter++; // increase a value but use its previous value</pre>
+
+          <p>--: decrement variable by 1</p>
+
+          <p>+=, -=, *=, /=: modify-and-assign (<code>n = n + 5</code>)</p>
+
+          <p>(...): grouping operator; operations within brackers are executed earlier</p>
+
+        </section>
+
+        <section class="main-section" id="if_Statements">
+          <header>if Statements</header>
+          <pre>
+if (condition) {
+  // do stuff
+} else if (condition) {
+  // do this stuff instead
+} else {
+  // if conditions above aren't meant, do this stuff
+}</pre>
+
+          <h2>Switch Statements</h2>
+          <pre>
+// switch statements are always strict!
+let arg = prompt("Enter a value?");
+switch (arg) {
+  case '0':
+  case '1':
+    alert( 'One or zero' );
+    break;
+
+  case '2':
+    alert( 'Two' );
+    break;
+
+  case 3:
+    alert( 'Never executes!' ); // because it's not a string '3'
+    break;
+  default:
+    alert( 'An unknown value' );
+}</pre>
+
+          <h2>Comparison Operators</h2>
+          <ul>
+            <li>==: regular equality operator</li>
+            <li>===: strict equality operators</li>
+            <li>!=: not equal</li>
+            <li>!==: not equal value or not equal type </li>
+            <li>>: greater than</li>
+            <li><: less than</li>
+            <li>>=: greater than or equal to</li>
+            <li><=: less than or equal to</li>
+            <li>? (ternary): conditional operator</li>
+          </ul>
+        </section>
+
+        <section class="main-section" id="Logical_Operators">
+          <header>Logical Operators</header>
+          <h2>|| (logical or)</h2>
+          <p>The <code>||</code> (logical or) evaluates operands from left to right. Each operand is converted to boolean type and if TRUE, it stops and returns the value of that operand. If all operands have been evaluated (false), then it returns the last operand.</p>
+
+          <h2>&& (logical and)</h2>
+          <p>The <code>&&</code> (logical and) evaluates operands from left to right. Each operand is converted to boolean type and if result is FALSE, it stops and returns the value of that operand. If all operands have been evaluated (true), then it returns the last operand.</p>
+
+          <h2>! (logical not)</h2>
+          <p>The <code>!</code> (logical not) converts the operand to boolean type. It returns the inverse value. <code>!!</code> is sometimes used to convert a value to boolean type as well. The more verbose version of <code>!!value</code> is <code>Boolean(value);</code></p>
+        </section>      
+      </main>
+
+      <footer>
+        <p>A <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a> project by <a href="https://github.com/havemercury" target="_blank">HaveMercury</a>.<br>
+        Information sourced from <a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Developer Network</a> and <a href="https://javascript.info/" target="_blank">JavaScript.Info</a>.</p>
+      </footer>
+    </div><!--col-2-->
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
