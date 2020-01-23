@@ -1,19 +1,24 @@
-# freeCodeCamp
+# freeCodeCamp 
 
-My solutions and projects for [freeCodeCamp](https://freecodecamp.com) will be committed to this repo. If there's a live browser version, I'll link to it before. Otherwise, you can peak into the folders above to see the code/solutions.
+My solutions and projects for [freeCodeCamp](https://freecodecamp.com) will be committed to this repo. There are links below to each respective section. Otherwise, you can navigate through the folders as well to see the code/solutions. ([View my freeCodeCamp profile](https://www.freecodecamp.org/havemercury).)
 
-## Responsive Web Design ([completed](https://www.freecodecamp.org/certification/havemercury/responsive-web-design))
+## Responsive Web Design
 - [Tribute Page](https://havemercury.github.io/freeCodeCamp/1-responsive/tribute.html)
 - [Survey Page](https://havemercury.github.io/freeCodeCamp/1-responsive/survey.html)
 - [Product Landing Page](https://havemercury.github.io/freeCodeCamp/1-responsive/product.html)
 - [Technical Documentation](https://havemercury.github.io/freeCodeCamp/1-responsive/techdoc.html)
 - [Personal Portfolio](https://havemercury.github.io/freeCodeCamp/1-responsive/portfolio.html)
+- [**Completed! See certification**](https://www.freecodecamp.org/certification/havemercury/responsive-web-design).
 
-## JavaScript Algorithms and Data Structures
-Currently in progress.
+## JavaScript Algorithms and Data Structures 
+- [Basic JavaScript Solutions](https://github.com/havemercury/freeCodeCamp/blob/master/2-javascript/1-basic-javascript.md)
+- [Basic Algorithm Scripting Solutions](https://github.com/havemercury/freeCodeCamp/blob/master/2-javascript/2-basic-algorithm-scripting.md)
+- [Intermediate Algorithm Scripting Solutions](https://github.com/havemercury/freeCodeCamp/blob/master/2-javascript/3-intermediate-algorithm-scripting.md)
+- [Project Solutions](https://github.com/havemercury/freeCodeCamp/blob/master/2-javascript/4-projects.md)
+- [**Completed! See certification**](https://www.freecodecamp.org/certification/havemercury/javascript-algorithms-and-data-structures).
 
 ## Front End Libraries
-I'll get here eventually.
+Currently in progress...
 
 ## Data Visualization
 And here.
