@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: #0f3663;
+  font-family: 'Merriweather', serif;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-item {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+div.tooltip {
+  position: absolute;
+  background-color: #f14e23;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.65rem;
+  pointer-events: none;
+}
+
+.graph-svg-component {
+  background-color: white;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.axis-label {
+  font-size: 0.875rem;
+}
+
+rect {
+  fill: #73b504;
+}
+
+rect:hover {
+  fill: #f14e23;
+}
+
+g text {
+  font-family: 'Merriweather', serif;
+}
