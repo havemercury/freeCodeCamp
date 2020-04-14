@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: #00796b;
+  font-family: 'Lato', sans-serif;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-item {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+div.tooltip {
+  position: absolute;
+  background-color: #00796b;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.75rem;
+  pointer-events: none;
+}
+
+.graph-svg-component {
+  background-color: white;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+.axis-label {
+  font-size: 0.875rem;
+}
+
+rect,
+circle {
+  border: 1px solid #000;
+}
+
+g text {
+  font-family: 'Lato', sans-serif;
+}
+
+.legend-title {
+  font-weight: bold;
+}

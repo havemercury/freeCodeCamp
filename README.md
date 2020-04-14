@@ -30,7 +30,8 @@ My solutions and projects for [freeCodeCamp](https://freecodecamp.com) will be c
 
 ## Data Visualization
 
-Currently in progress...
+- [Bar Chart](https://havemercury.github.io/freeCodeCamp/4-data_visualization/1-barchart.html)
+- [Scatterplot Graph](https://havemercury.github.io/freeCodeCamp/4-data_visualization/2-scatterplot.html)
 
 ## APIs and Microservices
 
