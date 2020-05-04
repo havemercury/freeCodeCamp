@@ -14,11 +14,21 @@ body {
 .centered-item {
   background-color: #fff;
   border-radius: 10px;
+  max-width: 900px;
 }
 
 h1 {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-size: 16pt;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 12pt;
 }
 
 div.tooltip {
@@ -35,15 +45,16 @@ div.tooltip {
   font-size: 0.875rem;
 }
 
-rect,
-circle {
-  border: 1px solid #000;
-}
-
 g text {
   font-family: 'Lato', sans-serif;
 }
 
-.legend-title {
-  font-weight: bold;
+#legend {
+  margin-left: 120px;
+  height: 70px;
+  width: 100%;
+}
+
+#legend text {
+  font-size: 12px;
 }
