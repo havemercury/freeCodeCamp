@@ -33,6 +33,7 @@ My solutions and projects for [freeCodeCamp](https://freecodecamp.com) will be c
 - [Bar Chart](https://havemercury.github.io/freeCodeCamp/4-data_visualization/1-barchart.html)
 - [Scatterplot Graph](https://havemercury.github.io/freeCodeCamp/4-data_visualization/2-scatterplot.html)
 - [Heat Map](https://havemercury.github.io/freeCodeCamp/4-data_visualization/3-heatmap.html)
+- [Choropleth Map](https://havemercury.github.io/freeCodeCamp/4-data_visualization/4-choropleth.html)
 
 ## APIs and Microservices
 
