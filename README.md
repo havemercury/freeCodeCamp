@@ -34,7 +34,7 @@ My solutions and projects for [freeCodeCamp](https://freecodecamp.com) will be c
 - [Scatterplot Graph](https://louvang.github.io/freeCodeCamp/4-data_visualization/2-scatterplot.html)
 - [Heat Map](https://louvang.github.io/freeCodeCamp/4-data_visualization/3-heatmap.html)
 - [Choropleth Map](https://louvang.github.io/freeCodeCamp/4-data_visualization/4-choropleth.html)
-- [Choropleth Map](https://louvang.github.io/freeCodeCamp/4-data_visualization/5-treemap.html)
+- [Treemap](https://louvang.github.io/freeCodeCamp/4-data_visualization/5-treemap.html)
 
 ## APIs and Microservices
 
