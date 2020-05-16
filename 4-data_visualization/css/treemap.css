@@ -1,54 +1,50 @@
 body {
   margin: 0;
-  background-color: #a1b18e;
-  font-family: 'Jost', serif;
+  background-color: #94577f;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .centered-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 100vh;
 }
 
 .centered-item {
   background-color: #fff;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
+  margin: 30px;
 }
 
 h1,
 h2 {
+  margin: 0 auto;
   text-align: center;
-  margin: 0 1rem;
 }
 
 h2 {
-  font-weight: 300;
-  font-size: 16px;
+  margin-bottom: 15px;
 }
 
-.counties {
-  fill: none;
+.tile-label {
+  fill: #fff;
+  font-size: 10px;
+  text-transform: uppercase;
 }
 
-.states {
-  fill: none;
-  stroke: #fff;
-  stroke-linejoin: round;
-}
-
-div.tooltip {
+div#tooltip {
   position: absolute;
-  background-color: #f14e23;
+  background-color: #000;
   padding: 10px;
   border-radius: 4px;
   color: #fff;
   font-size: 0.875rem;
   pointer-events: none;
+  font-size: 11px;
 }
 
-path.county:hover {
-  stroke-width: 0.5;
-  stroke: #000;
+rect:hover {
+  opacity: 0.6;
+  cursor: crosshair;
 }
