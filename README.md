@@ -35,10 +35,11 @@ My solutions and projects for [freeCodeCamp](https://freecodecamp.com) will be c
 - [Heat Map](https://louvang.github.io/freeCodeCamp/4-data_visualization/3-heatmap.html)
 - [Choropleth Map](https://louvang.github.io/freeCodeCamp/4-data_visualization/4-choropleth.html)
 - [Treemap](https://louvang.github.io/freeCodeCamp/4-data_visualization/5-treemap.html)
+- [**Completed! See certification**](https://www.freecodecamp.org/certification/louvang/data-visualization).
 
 ## APIs and Microservices
 
-Hopefully in the far future.
+- [**Completed! See certification**](https://www.freecodecamp.org/certification/louvang/apis-and-microservices).
 
 ## Information Security and Quality Assurance
 
